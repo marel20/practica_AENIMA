@@ -92,11 +92,16 @@
 }
 
         /*-- 1280+px --*/
-@media (min-width: 1280px) and (max-width: 1600px) {
+@media (min-width: 1280px){
     .nav {
         display: block;
+        width: 100%;
     }
     .sidenav {
         display: none;
+    }
+    .adventure{
+        top: 28.8em;
+        left: 52.2em;
     }
 }
