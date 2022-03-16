@@ -1,10 +1,12 @@
 /*-- Start Media queries --*/
-@media screen and (max-width: 990px) {
+        /*-- 480px --*/
+@media screen and (max-width: 480px) {
     .nav {
         display: none;
     }
     .sidenav {
         display: block;
+        width: 100%;
     }
     .logosFooter{
         margin: 0;
@@ -18,7 +20,7 @@
         height: 94vh;
     }
     .News > .img1{
-        width: 20em;
+        width: 100%;
         height: 37.9375em;
     }
     .adventureMax, .News > p{
@@ -36,7 +38,61 @@
     .number{left: 8.4em; margin-top: -5.3em;}
 
 }
-@media screen and (min-width: 991px) {
+
+        /*-- 768px --*/
+@media screen and (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+    .sidenav {
+        display: block;
+        width: 100%;
+    }
+    .logosFooter{
+        margin: 0;
+    }
+    .trends > h2, .blog > h2{
+        margin: 0 1em;
+        width: auto;
+    }
+    .News{
+        width: 100%;
+        height: 94vh;
+    }
+    .News > .img1{
+        width: 100%;
+        height: 37.9375em;
+    }
+    .adventureMax, .News > p{
+        display: none;
+    }
+    .row > .col-12 > p{display: none;}
+    .row > .col-12 > .h1{font-size: 1.5em; left: 3em; top: 10em;}
+    .row > .col-12 > .h4{display: none;}
+    .row > .col-12 > .h4Hidden{display:block; font-size: 1.2em; left: 2.6em; top: 17em;}
+    .row > .col-12 > .pin-ic{left: 2.6em; top: 15.050em; width: auto; height: 1.4em;}
+    .row > .col-12 > .hr{left: 2.7em; top: 18em; width: 17em; height: 1em;}
+    .nav-slider{width: 6.3em; left: 0.8em; margin-top: -5em;}
+    .circle{left: 6.5em; margin-top: -5em;}
+    .circle2{left: 7.1em; margin-top: -5em;}
+    .number{left: 8.4em; margin-top: -5.3em;}
+
+}
+
+        /*-- 1279px --*/
+@media screen and (min-width: 769px) {
+    .nav{
+        display: block;
+        width: 100%;
+    }
+    .sidenav{
+        display: none;
+    }
+
+}
+
+        /*-- 1280+px --*/
+@media screen and (min-width: 1280px) {
     .nav {
         display: block;
     }
