@@ -23,7 +23,7 @@
         width: 100%;
         height: 37.9375em;
     }
-    .adventureMax, .News > p{
+    .adventureMax{
         display: none;
     }
     .row > .col-12 > p{display: none;}
@@ -36,7 +36,8 @@
     .circle{left: 6.5em; margin-top: -5em;}
     .circle2{left: 7.1em; margin-top: -5em;}
     .number{left: 8.4em; margin-top: -5.3em;}
-    .cardHidden{display: none;}
+    .cardVisible > .card{max-width: 99%; margin: auto;}
+    .cardHidden1, .cardHidden2{display: none;}
     .nuevo{top: 10.1em; left: 2.5em;}
     .blogHidden{display: none;}
     .blog1 > img{max-width: 100%; height: 30em;}
@@ -53,7 +54,6 @@
     .logo > .logoTime2{top: 27em; left: 2.8em;}
     .time2{top: 33.0510em; left: 5.3em;}
     .footer{margin-top: 11em; position: absolute; width: 94%;}
-
 }
 
         /*-- 768px --*/
@@ -78,22 +78,40 @@
     }
     .News > .img1{
         width: 100%;
-        height: 37.9375em;
+        height: 97%;
     }
-    .adventureMax, .News > p{
+    .adventureMax{
         display: none;
     }
     .row > .col-12 > p{display: none;}
-    .row > .col-12 > .h1{font-size: 1.5em; left: 3em; top: 10em;}
-    .row > .col-12 > .h4{display: none;}
-    .row > .col-12 > .h4Hidden{display:block; font-size: 1.2em; left: 2.6em; top: 17em;}
-    .row > .col-12 > .pin-ic{left: 2.6em; top: 15.050em; width: auto; height: 1.4em;}
-    .row > .col-12 > .hr{left: 2.7em; top: 18em; width: 17em; height: 1em;}
-    .nav-slider{width: 6.3em; left: 0.8em; margin-top: -5em;}
-    .circle{left: 6.5em; margin-top: -5em;}
-    .circle2{left: 7.1em; margin-top: -5em;}
-    .number{left: 8.4em; margin-top: -5.3em;}
-
+    .row > .col-12 > .h1{font-size: 2.5em; left: 5em; top: 7.5em;}
+    .row > .col-12 > .h4{display: block; left: 7.4em; top: 17.4em;}
+    .row > .col-12 > .h4Hidden{display:none;}
+    .row > .col-12 > .pin-ic{left: 10.2em; top: 19.4em; width: auto; height: 1.8em;}
+    .row > .col-12 > .hr{left: 10.7em; top: 22.5em; width: 29em; height: 1em;}
+    .nav-slider{width: 6.4em; left: 2.250em; margin-top: -8em;}
+    .circle{left: 8em; margin-top: -8em;}
+    .circle2{left: 8.6em; margin-top: -8em;}
+    .number{left: 10em; margin-top: -8.4em;}
+    .cardVisible > .card{max-width: 95%; margin: auto;}
+    .cardHidden1 > .card{max-width: 95%; margin: auto;}
+    .cardHidden2{display: none;}
+    .nuevo{top: 9.6em; left: 2.5em;}
+    .blogHidden{display: none;}
+    .blog1 > img{max-width: 100%; height: 30em;}
+    .blog1{left: -8.5em; top: 2em; width: 100%; height: 30em;}
+    .title1{top: 3em; left: 2em; font-size: 1.2em;}
+    .blog1 > h3{top: 19em; left: 2em; font-size: 1.3em;}
+    .title2{display: none;}
+    .logo > .logoTime1{top: 27em; left: 2.8em;}
+    .time1{top: 33.0510em; left: 5.3em;}
+    .blog2 > img{max-width: 100%; height: 30em;}
+    .blog2{top: 6em; left: -8.5em;}
+    .title2{top: 1em; left: 1em;}
+    .blog2 > h3{top: 16em; left: 1.9em;}
+    .logo > .logoTime2{top: 27em; left: 2.8em;}
+    .time2{top: 33.0510em; left: 5.3em;}
+    .footer{margin-top: 11em; position: absolute; width: 91%;}
 }
 
         /*-- 1279px --*/
@@ -105,7 +123,50 @@
     .sidenav{
         display: none;
     }
-
+    .row > .col-12 > p{display: block; top: 27em; left: 7.8em;}
+    .row > .col-12 > .h1{font-size: 2.8em; left: 3.7em; top: 5.5em;}
+    .row > .col-12 > .h4{display: block; left: 5.4em; top: 16.4em;}
+    .row > .col-12 > .h4Hidden{display:none;}
+    .row > .col-12 > .pin-ic{left: 7.9em; top: 15.8em; width: auto; height: 2.2em;}
+    .row > .col-12 > .hr{left: 7.3em; top: 20.5em; width: 33em; height: 1em;}
+    .nav-slider{width: 7.5em; left: 5.1em; margin-top: -5em;}
+    .circle{left: 12em; margin-top: -5em;}
+    .circle2{left: 12.6em; margin-top: -5em;}
+    .number{left: 14.3em; margin-top: -5.3em;}
+    .adventure{top: 28.7em; left: 53.3em;}
+    .adventureMax > h5{top: 28.7em; left: 54.3em;}
+    .adventureMax > h6{top: 30.8em; left: 54.4em;}
+    .adventureMax > .p2{top: 38em; left: 62.2em;}
+    .cardVisible > .card{max-width: 90%; margin: auto;}
+    .cardHidden1 > .card{max-width: 90%; margin: auto;}
+    .cardHidden2 > .card{max-width: 90%; margin: auto;}
+    .nuevo{top: 9em; left: 2.5em;}
+    .card-text{left: 1em; top: 18em;}
+    .blog1 > img{max-width: 80%; height: auto;}
+    .blog1{left: -6.5em; top: 0.5em; width: 100%; height: auto;}
+    .title1{top: 2em; left: 2em; font-size: 1.2em;}
+    .blog1 > h3{top: 9em; left: 2em; font-size: 2em;}
+    .blog1 > .title2{top: 21em; left: 4em; }
+    .logo > .logoTime1{top: 24em; left: 4em;}
+    .time1{top: 29.5150em; left: 6.5em;}
+    .blog2 > img{max-width: 80%; height: auto;}
+    .blog2{left: -6.5em; top: 2em; width: 100%; height: auto;}
+    .blog2 > .title1{top: 2em; left: 2em; font-size: 1.2em;}
+    .blog2 > h3{top: 8.5em; left: 2em; font-size: 2em;}
+    .blog2 > .title2{top: 20em; left: 4em; }
+    .logo > .logoTime2{top: 24em; left: 4em;}
+    .time2{top: 29.5150em; left: 6.5em;}
+    .blog3 > img{max-width: 80%; height: auto;}
+    .blog3{top: -53em; left: 48.5em;}
+    .blog3 > h4{top: 12.5em; left: 1em;}
+    .logoTime3 {top: 15em; left: 0.9em;}
+    .time3 {top: 18.3em; left: 3em;}
+    .blog4 > img{max-width: 80%; height: auto;}
+    .blog4{top: -48em; left: 48.5em;}
+    .blog4 > h4{top: 12.5em; left: 1em;}
+    .blog5 > img{max-width: 80%; height: auto;}
+    .blog5{top: -42em; left: 48.5em;}
+    .blog5 > h4{top: 12.5em; left: 1em;}
 }
 
         /*-- 1280+px --*/
