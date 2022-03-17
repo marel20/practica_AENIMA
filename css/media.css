@@ -6,7 +6,9 @@
     }
     .sidenav {
         display: block;
-        width: 100%;
+        width: 93.5%;
+        max-width: 100%;
+        position: fixed;
     }
     .logosFooter{
         margin: 0;
@@ -63,7 +65,9 @@
     }
     .sidenav {
         display: block;
-        width: 100%;
+        width: 93.5%;
+        max-width: 100%;
+        position: fixed;
     }
     .logosFooter{
         margin: 0;
@@ -119,9 +123,14 @@
     .nav{
         display: block;
         width: 100%;
+        max-width: 87.3%;
     }
     .sidenav{
         display: none;
+    }
+    .News > .img1{
+        margin-top: 3.8em;
+        max-width: 100%;
     }
     .row > .col-12 > p{display: block; top: 27em; left: 7.8em;}
     .row > .col-12 > .h1{font-size: 2.8em; left: 3.7em; top: 5.5em;}
