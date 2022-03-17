@@ -187,5 +187,8 @@
     .sidenav {
         display: none;
     }
-
+    .News > .img1{
+        margin-top: 3.8em;
+        max-width: 100%;
+    }
 }
