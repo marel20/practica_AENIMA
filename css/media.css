@@ -1,6 +1,6 @@
 /*-- Start Media queries --*/
         /*-- 480px --*/
-@media (min-width: 1px) and (max-width: 480px) {
+@media (min-width: 0px) and (max-width: 480px) {
     .nav {
         display: none;
     }
@@ -36,6 +36,23 @@
     .circle{left: 6.5em; margin-top: -5em;}
     .circle2{left: 7.1em; margin-top: -5em;}
     .number{left: 8.4em; margin-top: -5.3em;}
+    .cardHidden{display: none;}
+    .nuevo{top: 59.1em; left: 3.5em;}
+    .blogHidden{display: none;}
+    .blog1 > img{max-width: 100%; height: 30em;}
+    .blog1{left: -8.5em; top: 2em; width: 100%; height: 30em;}
+    .title1{top: 3em; left: 2em; font-size: 1.2em;}
+    .blog1 > h3{top: 19em; left: 2em; font-size: 1.3em;}
+    .title2{display: none;}
+    .logo > .logoTime1{top: 27em; left: 2.8em;}
+    .time1{top: 33.0510em; left: 5.3em;}
+    .blog2 > img{max-width: 100%; height: 30em;}
+    .blog2{top: 6em; left: -8.5em;}
+    .title2{top: 1em; left: 1em;}
+    .blog2 > h3{top: 16em; left: 1.9em;}
+    .logo > .logoTime2{top: 27em; left: 2.8em;}
+    .time2{top: 33.0510em; left: 5.3em;}
+    .footer{top: 182em; position: absolute; width: 94%;}
 
 }
 
