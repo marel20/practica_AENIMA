@@ -19,6 +19,7 @@
     color: #000000;
     background: #FFFFFF;
     box-shadow: 0 0.1875em 0.375em #00000029;
+    z-index: 1000;
 }
 
 .nav-a{
@@ -246,7 +247,6 @@ p{
 .section{
     background-color: #EBEBEB;
     height: 49em;
-    margin-top: -3em;
 }
 /*-- End Section Style --*/
 
@@ -522,7 +522,7 @@ p{
 .footer{
     background-color: #2A3037;
     height: 6em;
-    margin-top: -38em;
+    margin-top: -35em;
 }
 .logosFooter{
     display: flex;
